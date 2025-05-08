@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "electron": "^36.2.0"
+  },
+  "name": "adm-gamer",
+  "description": "Atividade_07/05_Admgamer",
+  "version": "1.0.0",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

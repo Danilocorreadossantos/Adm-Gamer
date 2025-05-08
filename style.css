@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    color: beige
+}
+div{
+    background-color: rgb(18, 118, 212);  /*definir cor */
+    padding: 32px;
+    font-family: Arial;
+    
+    max-width: 400px; /* definir largura maxima 400px */
+    border-radius: 32px; /* arredondar os cantos do raio de 32px */
+    justify-items: center;
+    
+}
+
+ .img-1 {
+    width: 100%;
+    height: 200px;
+ }
+label{
+    font-weight: bold;
+}
+ button{
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 32px;
+ }
+ button:hover{
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+ }
