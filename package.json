@@ -6,7 +6,6 @@
   "description": "Atividade_07/05_Admgamer",
   "version": "1.0.0",
   "main": "main.js",
-  "devDependencies": {},
   "scripts": {
     "start": "electron ."
   },

@@ -6,8 +6,12 @@ function createWindow () {
     width: 800,
     height: 600,
     webPreferences: {
-      preload: path.join(__dirname, 'preload.js')
-    }
+      preload: path.join(__dirname, 'adm.webp')
+    },
+    transparent: true,
+    alwaysOnTop: false,
+    frame: false,
+    icon: path.join(__dirname, 'adm.webp')
   })
 
   win.loadFile('index.html')
